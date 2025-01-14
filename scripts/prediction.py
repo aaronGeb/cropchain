@@ -3,6 +3,8 @@ import pickle
 import pandas as pd
 from pandas import DataFrame
 
+import sklearn
+print(sklearn.__version__)
 
 class CropPredictor:
     """Class for loading the model and predicting the crop yield"""
@@ -56,7 +58,7 @@ class CropPredictor:
 
 
 if __name__ == "__main__":
-    predictor = CropPredictor(model_path="../models/random_forest_model.pkl")
+    predictor = CropPredictor(model_path="../models/model.pkl")
     predictor.load_model()
 
     new_data = pd.DataFrame(

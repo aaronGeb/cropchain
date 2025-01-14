@@ -10,11 +10,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-
+import sklearn
+print(sklearn.__version__)
 class RandomForestTrainer:
     """model for crop prediction"""
 
-    def __init__(self, data_path: str, model_path="../models/random_forest_model.pkl"):
+    def __init__(self, data_path: str, model_path="../models/model.pkl"):
         self.data_path = data_path
         self.model_path = model_path
         self.model = None
@@ -61,7 +62,7 @@ class RandomForestTrainer:
     def train_model(self):
         """train the model"""
         self.model = RandomForestRegressor(
-            n_estimators=200,
+            n_estimators=300,
             max_depth=20,
             min_samples_split=2,
             min_samples_leaf=1,
