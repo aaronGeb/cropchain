@@ -6,7 +6,7 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p /app/models
 
-# Copy prediction.py and random_forest_model.pkl into the container
+# Copy flask_pre.py and random_forest_model.pkl into the container
 COPY scripts/flask_pre.py /app/
 COPY models/random_forest_model.pkl  /app/models/
 
