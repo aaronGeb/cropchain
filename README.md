@@ -81,13 +81,13 @@ CropChain is designed to assist farmers, agronomists, and researchers in predict
    To run the project using Docker, build the Docker image:
 
    ```bash
-   docker build -t cropchain .
+   docker build -t crop_app .
    ```
 
    Then, run the container:
 
    ```bash
-   docker run -p 5000:5000 cropchain
+   docker run -p 9696:9696 crop_app
    ```
 
 ## **How to Run**
@@ -108,15 +108,20 @@ CropChain is designed to assist farmers, agronomists, and researchers in predict
    python scripts/train.py
    ```
 
-3. **Run the Flask App:**
+3. **Run the Flask or streamlit App:**
 
    Deploy the web app for real-time predictions:
 
    ```bash
-   python deployment/app.py
+   python deployment/streamlit run app.py
+   ```
+  The application will run on [http://localhost:8501](http://localhost:8501).
+  
+   ```
+   docker run -it --rm -p 9696:9696 crop_app:latest
    ```
 
-   The application will run on [http://localhost:5000](http://localhost:9696).
+   The application will run on [http://localhost:9696](http://localhost:9696).
 
 ## **Usage**
 
