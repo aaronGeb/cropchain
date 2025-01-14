@@ -125,10 +125,9 @@ CropChain is designed to assist farmers, agronomists, and researchers in predict
 
 ## **Results**
 - Best Model: DecisionTree
-- Accuracy: 77.8%
-- Precision: 74%
-- Recall: 79%
-- AUC-ROC: 73%
+- R^2 score: 0.943
+- MSE score: 0;001
+- MAE score: 0.018
 
 
 ## **License**
