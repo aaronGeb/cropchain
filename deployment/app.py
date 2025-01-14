@@ -4,8 +4,6 @@ import pickle
 import streamlit as st
 import pandas as pd
 
-import sklearn
-print('sklearn aaron', sklearn.__version__)
 
 # Set up paths
 sys.path.append(os.path.abspath(os.path.join("../scripts")))
