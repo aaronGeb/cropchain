@@ -5,13 +5,12 @@ from pandas import DataFrame
 from typing import Optional
 from sklearn.preprocessing import LabelEncoder
 import pickle
-import os, sys
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-import sklearn
-print(sklearn.__version__)
+
 class RandomForestTrainer:
     """model for crop prediction"""
 

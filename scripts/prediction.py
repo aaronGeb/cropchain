@@ -3,8 +3,7 @@ import pickle
 import pandas as pd
 from pandas import DataFrame
 
-import sklearn
-print(sklearn.__version__)
+
 
 class CropPredictor:
     """Class for loading the model and predicting the crop yield"""
