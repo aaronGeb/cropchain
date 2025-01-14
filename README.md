@@ -1,12 +1,16 @@
 # **CropChain - Predicting Crop Yields Using Machine Learning**
 
+## **Project Overview**
+
 **CropChain** is an end-to-end machine learning pipeline designed to predict crop yields efficiently by leveraging modern data science techniques. This project demonstrates how to integrate data processing, model training, and deployment to deliver actionable insights that enhance agricultural productivity.
+
+CropChain is designed to assist farmers, agronomists, and researchers in predicting crop yields using historical and environmental data. The project integrates key components like data preprocessing, machine learning model training, and a web-based deployment using `Flask` and `streamlit`.
 
 ## **Table of Contents**
 
 - [**CropChain - Predicting Crop Yields Using Machine Learning**](#cropchain---predicting-crop-yields-using-machine-learning)
-  - [**Table of Contents**](#table-of-contents)
   - [**Project Overview**](#project-overview)
+  - [**Table of Contents**](#table-of-contents)
   - [**Folder Structure**](#folder-structure)
   - [**Key Features**](#key-features)
   - [**Setup and Installation**](#setup-and-installation)
@@ -16,9 +20,6 @@
   - [**License**](#license)
   - [**Support 💬**](#support-)
   - [**Acknowledgments 🙏**](#acknowledgments-)
-
-## **Project Overview**
-CropChain is designed to assist farmers, agronomists, and researchers in predicting crop yields using historical and environmental data. The project integrates key components like data preprocessing, machine learning model training, and a web-based deployment using Flask.
 
 ## **Folder Structure**
 
