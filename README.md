@@ -124,7 +124,7 @@ CropChain is designed to assist farmers, agronomists, and researchers in predict
 - Use the provided plotting scripts to visualize data trends and model performance.
 
 ## **Results**
-- Best Model: DecisionTree
+- Best Model: RandomForestRegressor
 - R^2 score: 0.943
 - MSE score: 0;001
 - MAE score: 0.018
