@@ -23,33 +23,33 @@ CropChain is designed to assist farmers, agronomists, and researchers in predict
 ## **Folder Structure**
 
 ```                  
-├── crops/
-│   ├── data/
-│   │   ├── labeled/            # Labeled data for model training
-│   │   ├── processed/          # Preprocessed data for model input
-│   │   └── raw/                # Raw data files
-│   ├── deployment/             
-│   │   ├── __init__.py         # Initialization file for deployment
-│   │   └── app.py              # stremlit app for deployment
-│   ├── models/                 # Saved machine learning models
-│   ├── notebook/
-│   │   ├── data_analysis.ipynb # Jupyter notebook for data exploration and analysis
-│   │   ├── data_preprocessing.ipynb  # Data preprocessing steps
-│   │   └── model_training.ipynb      # Model training process
-│   ├── scripts/
-│   │   ├── __init__.py         # Initialization for scripts module
-│   │   ├── data_preprocessing.py  # Python script for data cleaning and processing
-│   │   ├── flask_pre.py        # Flask-related helper functions
-│   │   ├── plotting.py         # Functions for plotting data and results
-│   │   ├── prediction.py       # Script for making predictions
-│   │   └── train.py            # Script for training the machine learning model
-│   ├── tests/                  # Unit and integration tests
-│   └── utils/                  # Utility functions and scripts
-├── .gitignore                  # Files and directories to ignore in version control
-├── Dockerfile                  # Docker configuration for containerizing the application
-├── LICENSE                     # Project license
-├── README.md                   # This readme file
-├── requirements.txt            # Python dependencies
+ crops/
+    ├── data/
+    │   ├── labeled/            # Labeled data for model training
+    │   ├── processed/          # Preprocessed data for model input
+    │   └── raw/                # Raw data files
+    ├── deployment/             
+    │   ├── __init__.py         # Initialization file for deployment
+    │   └── app.py              # stremlit app for deployment
+    ├── models/                 # Saved machine learning models
+    ├── notebook/
+    │   ├── data_analysis.ipynb # Jupyter notebook for data exploration and analysis
+    │   ├── data_preprocessing.ipynb  # Data preprocessing steps
+    │   └── model_training.ipynb      # Model training process
+    ├── scripts/
+    │   ├── __init__.py         # Initialization for scripts module
+    │   ├── data_preprocessing.py  # Python script for data cleaning and processing
+    │   ├── flask_pre.py        # Flask app for deployment
+    │   ├── plotting.py         # Functions for plotting data and results
+    │   ├── prediction.py       # Script for making predictions
+    │   └── train.py            # Script for training the machine learning model
+    ├── tests/                  # Unit and integration tests
+    └── utils/                  # Utility functions and scripts
+    ├── .gitignore                  # Files and directories to ignore in version control
+    ├── Dockerfile                  # Docker configuration for containerizing the application
+    ├── LICENSE                     # Project license
+    ├── README.md                   # This readme file
+    ├── requirements.txt            # Python dependencies
 ```
 
 ## **Key Features**
